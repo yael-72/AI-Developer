@@ -1,0 +1,21 @@
+[project]
+name = "proptproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "YL4279", email = "y3293279@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "gradio>=6.24.0",
+    "openai>=3.1.0",
+]
+
+[project.scripts]
+proptproject = "proptproject:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
