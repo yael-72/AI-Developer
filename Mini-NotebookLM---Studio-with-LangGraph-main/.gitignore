@@ -1,0 +1,55 @@
+# === סודיות ואבטחה (משתני סביבה) ===
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# === סביבות וירטואליות (קבצים כבדים של פייתון) ===
+.venv/
+venv/
+ENV/
+env/
+# התאמה מיוחדת לתיקייה הווירטואלית שנוצרה אצלך:
+.venv.venv/
+
+# === קבצי הרצה וזכרון מטמון של פייתון (Python Cache) ===
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === הגדרות של עורך הקוד (VS Code / PyCharm) ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === קבצי מערכת הפעלה (OS specific files) ===
+DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Icon?

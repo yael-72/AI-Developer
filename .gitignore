@@ -1,0 +1,46 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets.json
+secrets.*
+*.pem
+*.key
+*.key.enc
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+build/
+out/
+release/
+.vite/
+.electron-vite/
+*.tsbuildinfo
+
+# Local databases, indexes, and generated data
+.chroma/
+storage/
+uploads/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and tooling files
+*.log
+.coverage
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

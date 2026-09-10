@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# UV
+.uv/
+uv.lock.backup
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test / coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Node (if client dependencies are added later)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Uploaded user files / local data
+uploads/
+data/
+storage/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
